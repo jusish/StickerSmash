@@ -69,7 +69,7 @@ export default function Index() {
 
         await MediaLibrary.saveToLibraryAsync(localUri);
         if (localUri) {
-          alert("Saved!");
+          alert("Screenshot Saved!");
         }
       } catch (e) {
         console.log(e);
